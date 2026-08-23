@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { HeroFilm } from "@/components/layout/HeroFilm";
 import { westboro } from "@/content/house";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
@@ -40,13 +41,7 @@ export default async function WestboroPage({ params }: Props) {
               </Link>
             </div>
           </div>
-          <div className="relative min-h-[22rem] overflow-hidden md:min-h-[28rem]">
-            <img
-              src={westboro.hero}
-              alt={t("heroAlt")}
-              className="absolute inset-0 h-full w-full object-cover object-center"
-            />
-          </div>
+          <HeroFilm src={westboro.heroFilm} poster={westboro.hero} alt={t("heroAlt")} />
         </div>
       </section>
 
@@ -66,6 +61,21 @@ export default async function WestboroPage({ params }: Props) {
           </ul>
           <p className="mt-6 text-sm text-muted">{westboro.wineMonday[lang]}</p>
           <p className="mt-4 max-w-2xl text-muted">{t("notKanata")}</p>
+        </div>
+      </section>
+
+      <section className="border-b border-line bg-night py-16 text-cream">
+        <div className="mx-auto grid max-w-[1180px] items-center gap-10 px-6 lg:grid-cols-2">
+          <HeroFilm
+            src={westboro.plateFilm}
+            poster={westboro.plate}
+            alt={t("plateAlt")}
+            className="relative min-h-[20rem] overflow-hidden md:min-h-[24rem]"
+          />
+          <div>
+            <h2 className="font-heading text-4xl">{t("plateTitle")}</h2>
+            <p className="mt-4 text-lg text-cream/75">{t("plateLead")}</p>
+          </div>
         </div>
       </section>
 

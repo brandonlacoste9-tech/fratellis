@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { HeroFilm } from "@/components/layout/HeroFilm";
 import { WallpaperFrame } from "@/components/layout/WallpaperFrame";
 import { dineHours, gallery, house } from "@/content/house";
 import { Link } from "@/i18n/navigation";
@@ -33,13 +34,7 @@ export default async function HomePage({ params }: Props) {
               </Link>
             </div>
           </div>
-          <div className="relative min-h-[22rem] overflow-hidden md:min-h-[28rem]">
-            <img
-              src={house.hero}
-              alt={t("heroAlt")}
-              className="absolute inset-0 h-full w-full object-cover object-center"
-            />
-          </div>
+          <HeroFilm src={house.heroFilm} poster={house.hero} alt={t("heroAlt")} />
         </div>
       </section>
 
@@ -85,15 +80,26 @@ export default async function HomePage({ params }: Props) {
           <h2 className="font-heading text-4xl md:text-5xl">{t("photosTitle")}</h2>
           <p className="mt-3 max-w-2xl text-cream/70">{t("photosLead")}</p>
           <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {gallery.slice(0, 8).map((shot) => (
-              <li key={shot.src} className="overflow-hidden">
-                <img
-                  src={shot.src}
-                  alt={shot.alt[lang]}
-                  className="aspect-[4/3] w-full object-cover"
-                />
-              </li>
-            ))}
+            <li className="overflow-hidden sm:col-span-2">
+              <HeroFilm
+                src={house.pastaFilm}
+                poster="/gallery/2.jpg"
+                alt={gallery[2].alt[lang]}
+                className="relative aspect-[4/3] overflow-hidden"
+              />
+            </li>
+            {gallery
+              .filter((shot) => shot.src !== "/gallery/2.jpg")
+              .slice(0, 6)
+              .map((shot) => (
+                <li key={shot.src} className="overflow-hidden">
+                  <img
+                    src={shot.src}
+                    alt={shot.alt[lang]}
+                    className="aspect-[4/3] w-full object-cover"
+                  />
+                </li>
+              ))}
           </ul>
         </div>
       </section>

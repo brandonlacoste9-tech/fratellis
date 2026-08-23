@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { HeroFilm } from "@/components/layout/HeroFilm";
 import { house, shop, westboro } from "@/content/house";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
@@ -16,6 +17,7 @@ export default async function HomePage({ params }: Props) {
       id: "kanata",
       href: "/kanata",
       photo: house.hero,
+      film: house.heroFilm,
       name: { en: "Kanata", fr: "Kanata" },
       tag: shop.lines[lang][0],
       phone: house.phone,
@@ -26,6 +28,7 @@ export default async function HomePage({ params }: Props) {
       id: "westboro",
       href: "/westboro",
       photo: westboro.hero,
+      film: westboro.heroFilm,
       name: westboro.name,
       tag: westboro.lines[lang][0],
       phone: westboro.phone,
@@ -36,8 +39,13 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
-      <section className="bg-night px-6 py-16 text-cream md:py-24">
-        <div className="mx-auto max-w-[1180px]">
+      <section className="relative isolate overflow-hidden bg-night text-cream">
+        <img
+          src="/film/family-night.jpg"
+          alt=""
+          className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-55"
+        />
+        <div className="relative mx-auto max-w-[1180px] px-6 py-16 md:py-24">
           <p className="text-[0.72rem] font-semibold tracking-[0.22em] text-gold uppercase">
             {t("kicker")}
           </p>
@@ -54,8 +62,13 @@ export default async function HomePage({ params }: Props) {
         <ul className="mt-10 grid gap-6 md:grid-cols-2">
           {locations.map((location) => (
             <li key={location.id} className="flex flex-col overflow-hidden border border-line bg-cream">
-              <Link href={location.href} className="relative block min-h-[16rem] overflow-hidden">
-                <img src={location.photo} alt="" className="absolute inset-0 h-full w-full object-cover" />
+              <Link href={location.href} className="block">
+                <HeroFilm
+                  src={location.film}
+                  poster={location.photo}
+                  alt=""
+                  className="relative min-h-[16rem] overflow-hidden"
+                />
               </Link>
               <div className="flex flex-1 flex-col p-6">
                 <p className="text-[0.72rem] font-semibold tracking-[0.16em] text-muted uppercase">

@@ -131,7 +131,10 @@
     "specialsLead": "Copied from fratelli.ca. Specials change. Half-price wine Monday is on their drinks page.",
     "eventsNote": "Their events page currently lists National Pasta Day (Saturday October 17th) and National Cappuccino Day (Sunday November 8th), as printed.",
     "notKanata": "This is not 499 Terry Fox Drive. Kanata has its own site, phone, and takeout hours.",
-    "noForm": "This preview does not take a table. Westboro reservations stay on OpenTable."
+    "noForm": "This preview does not take a table. Westboro reservations stay on OpenTable.",
+    "plateTitle": "On the table",
+    "plateLead": "A plate they photograph. Specials change.",
+    "plateAlt": "A salad they publish at Westboro."
   },
   "westboroMenu": {
     "kicker": "Westboro · fratelli.ca",

@@ -12,6 +12,8 @@ export const house = {
   robertoPizza: "http://www.robertopizza.ca/",
   logo: "/logo.png",
   hero: "/hero.jpg",
+  heroFilm: "/film/kanata-hero.mp4",
+  pastaFilm: "/film/kanata-pasta.mp4",
   room: "/family.jpg",
   menuBoard: "/menu.jpg",
   menuCopied: "2026-08-23",
@@ -66,7 +68,7 @@ export const takeoutHours = [
 export const gallery = [
   { src: "/gallery/1.jpg", alt: { en: "Wine bottles in a crate in the dining room.", fr: "Bouteilles de vin dans une caisse, dans la salle." } },
   { src: "/gallery/4.jpg", alt: { en: "Wood-fired pizza with arugula and cured ham.", fr: "Pizza au feu de bois, roquette et jambon." } },
-  { src: "/gallery/2.jpg", alt: { en: "A photograph they publish of the room.", fr: "Une photo de la salle qu’ils publient." } },
+  { src: "/gallery/2.jpg", alt: { en: "Pasta with ham and mushrooms they photograph.", fr: "Pâtes au jambon et aux champignons, photo qu’ils publient." } },
   { src: "/gallery/5.jpg", alt: { en: "A photograph they publish of a plate.", fr: "Une photo d’assiette qu’ils publient." } },
   { src: "/gallery/6.jpg", alt: { en: "A photograph they publish of pizza.", fr: "Une photo de pizza qu’ils publient." } },
   { src: "/gallery/7.jpg", alt: { en: "A photograph they publish of a plate.", fr: "Une photo d’assiette qu’ils publient." } },
@@ -90,6 +92,9 @@ export const westboro = {
   drinksUrl: "https://fratelli.ca/ottawa-westboro-fratelli-drink-menu",
   jobsUrl: "https://tmt.spotapps.co/job-listings?spot_id=248057",
   hero: "/westboro/hero.jpg",
+  heroFilm: "/film/westboro-hero.mp4",
+  plate: "/westboro/room.jpg",
+  plateFilm: "/film/westboro-plate.mp4",
   room: "/westboro/poster.jpg",
   postal: "K1Z 6X2",
   lines: {
