@@ -74,6 +74,54 @@ export const gallery = [
   { src: "/gallery/10.jpg", alt: { en: "A photograph they publish of a plate.", fr: "Une photo d’assiette qu’ils publient." } },
 ] as const;
 
+export const westboro = {
+  name: { en: "Westboro", fr: "Westboro" },
+  tag: { en: "275 Richmond Road · Ottawa", fr: "275, chemin Richmond · Ottawa" },
+  liveSite: "https://fratelli.ca/",
+  phone: "(613) 722-6772",
+  phoneHref: "tel:+16137226772",
+  email: "juliana@fratelli.ca",
+  emailHref: "mailto:juliana@fratelli.ca",
+  instagram: "https://www.instagram.com/fratelliwestboro/",
+  facebook: "https://www.facebook.com/442509779107877",
+  openTable:
+    "https://www.opentable.ca/r/fratelli-westboro-reservations-ottawa?restref=1073479&lang=en-CA&ot_source=Restaurant%20website",
+  partiesUrl: "https://fratelli.ca/ottawa-westboro-fratelli-party",
+  drinksUrl: "https://fratelli.ca/ottawa-westboro-fratelli-drink-menu",
+  jobsUrl: "https://tmt.spotapps.co/job-listings?spot_id=248057",
+  hero: "/westboro/hero.jpg",
+  room: "/westboro/poster.jpg",
+  postal: "K1Z 6X2",
+  lines: {
+    en: ["275 Richmond Rd", "Ottawa, ON"],
+    fr: ["275, chemin Richmond", "Ottawa, Ont."],
+  },
+  mapUrl:
+    "https://www.google.com/maps/search/?api=1&query=275+Richmond+Rd+Ottawa+ON+K1Z+6X2",
+  hours: [
+    {
+      day: { en: "Monday – Wednesday", fr: "Lundi – mercredi" },
+      hours: { en: "11:30 am – 9:00 pm", fr: "11 h 30 – 21 h" },
+    },
+    {
+      day: { en: "Thursday – Saturday", fr: "Jeudi – samedi" },
+      hours: { en: "11:30 am – 10:00 pm", fr: "11 h 30 – 22 h" },
+    },
+    {
+      day: { en: "Sunday", fr: "Dimanche" },
+      hours: { en: "5:00 pm – 9:00 pm", fr: "17 h – 21 h" },
+    },
+  ],
+  hoursNote: {
+    en: "As printed on fratelli.ca. Thursday is grouped with Friday and Saturday until 10 pm — not the Kanata Thursday window.",
+    fr: "Telles qu’imprimées sur fratelli.ca. Le jeudi est groupé avec vendredi et samedi jusqu’à 22 h — pas la fenêtre de Kanata.",
+  },
+  wineMonday: {
+    en: "Monday half-price wine, 5:00 pm – 9:00 pm — as printed on their drinks page and specials.",
+    fr: "Lundi : vins à moitié prix, 17 h – 21 h — tel qu’imprimé sur leur page vins et specials.",
+  },
+} as const;
+
 export const eventPhotos = [
   { src: "/events/loft.jpg", alt: { en: "A long table in the upstairs loft.", fr: "Une longue table dans le loft à l’étage." } },
   { src: "/events/table.jpg", alt: { en: "A set table for a group.", fr: "Une table dressée pour un groupe." } },

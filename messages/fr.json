@@ -1,7 +1,7 @@
 {
   "meta": {
-    "site": "Fratelli Kanata",
-    "description": "Trattoria italienne au 499 Terry Fox Drive, Kanata. Vin, pâtes, pizza au feu de bois. Tables au téléphone : 613-592-0225."
+    "site": "Fratelli",
+    "description": "Deux salles italiennes : Westboro au 275, chemin Richmond, Kanata au 499 Terry Fox Drive."
   },
   "nav": {
     "skip": "Aller au contenu",
@@ -10,13 +10,19 @@
     "takeout": "À emporter",
     "events": "Événements",
     "about": "À propos",
+    "kanata": "Kanata",
+    "westboro": "Westboro",
     "contact": "Contact",
     "close": "Fermer",
-    "strip": "Kanata · 499 Terry Fox Drive · réservez au téléphone"
+    "strip": "Deux salles · Westboro · Kanata"
   },
   "callbar": {
-    "line": "Les réservations ne sont pas obligatoires, mais recommandées. Appelez le 613-592-0225 — on ne prend pas de table sur cet aperçu.",
-    "short": "Tables au téléphone — pas ici."
+    "line": "Kanata : les réservations ne sont pas obligatoires, mais recommandées. 613-592-0225 — on ne prend pas de table ici.",
+    "short": "Kanata : tables au téléphone — pas ici.",
+    "westboro": "Westboro : tables sur OpenTable ou 613-722-6772 — cet aperçu ne prend pas de table.",
+    "westboroShort": "Westboro : OpenTable — pas ici.",
+    "family": "Deux salles. Westboro : OpenTable. Kanata : 613-592-0225.",
+    "familyShort": "Deux salles — Westboro OpenTable · Kanata téléphone."
   },
   "home": {
     "kicker": "Kanata · familial",
@@ -86,10 +92,11 @@
     "title": "À propos",
     "noun": "Fratelli (nom, « frères » en italien)",
     "glebe": "Fondé en 1996 dans le Glebe : un resto de quartier, bonne cuisine italienne, bon vin, service simple. Robert et Louisa en cuisine; Richard et Pasquale en salle.",
-    "kanata": "Ils continuent comme fratelli à Kanata — familial.",
-    "roberto": "Ils pointent aussi vers Roberto Pizza à Little Italy. Autre site. On le lie; on ne le reconstruit pas comme cette salle.",
+    "kanata": "Ils continuent comme fratelli. Kanata imprime la salle familiale sur Terry Fox Drive. Westboro imprime « now in Westboro ».",
+    "roberto": "Kanata pointe aussi vers Roberto Pizza à Little Italy. Autre site. On le lie; on ne le reconstruit pas comme une de ces salles.",
     "robertoCta": "Roberto Pizza",
-    "notWestboro": "Cette refonte, c’est fratellikanata.ca seulement — 499 Terry Fox Drive. Pas le 275, chemin Richmond."
+    "notWestboro": "Kanata : 499 Terry Fox Drive. Westboro : 275, chemin Richmond.",
+    "twoRooms": "fratelli.ca, c’est Westboro (OpenTable, 613-722-6772). fratellikanata.ca, c’est Kanata (tables au téléphone, 613-592-0225). On ne mélange pas les salles."
   },
   "contact": {
     "kicker": "la salle",
@@ -99,8 +106,45 @@
     "events": "Événements et groupes de 10+",
     "noForm": "Pas de formulaire de réservation sur leur site. Pas ici non plus."
   },
+  "family": {
+    "kicker": "Ottawa · deux salles",
+    "title": "Fratelli.",
+    "lead": "Frères. Deux cuisines. Kanata sur Terry Fox Drive. Westboro sur le chemin Richmond. Chaque salle garde son téléphone, ses heures, sa porte de réservation.",
+    "roomsTitle": "Les salles",
+    "roomsLead": "On ne mélange pas les deux sites. Kanata n’a pas OpenTable. Westboro réserve sur OpenTable.",
+    "kanataReserve": "Tables au téléphone. Pas obligatoire, recommandé.",
+    "westboroReserve": "Tables sur OpenTable, ou la ligne Westboro."
+  },
+  "westboro": {
+    "title": "Westboro.",
+    "lead": "fratelli.ca. Enoteca et pizza au feu de bois au 275, chemin Richmond. Depuis 1996, maintenant à Westboro — comme ils l’écrivent.",
+    "heroAlt": "La devanture Fratelli sur le chemin Richmond à Westboro.",
+    "reserve": "OpenTable",
+    "menu": "Le menu",
+    "hoursTitle": "Heures",
+    "contactTitle": "Contact",
+    "contactLead": "Westboro imprime 613-722-6772 et juliana@fratelli.ca. Ce n’est pas la ligne de Kanata.",
+    "map": "Ouvrir dans Google Maps",
+    "parties": "Les événements privés passent par leur page parties. On ne prend pas la réservation ici.",
+    "partiesCta": "Leur page parties",
+    "specials": "Specials",
+    "specialsLead": "Copié de fratelli.ca. Les specials changent. Le vin à moitié prix le lundi est sur leur page vins.",
+    "eventsNote": "Leur page événements liste National Pasta Day (samedi 17 octobre) et National Cappuccino Day (dimanche 8 novembre), tels qu’imprimés.",
+    "notKanata": "Ce n’est pas le 499 Terry Fox Drive. Kanata a son site, son téléphone, ses heures à emporter.",
+    "noForm": "Cet aperçu ne prend pas de table. Les réservations Westboro restent sur OpenTable."
+  },
+  "westboroMenu": {
+    "kicker": "Westboro · fratelli.ca",
+    "title": "Menu",
+    "lead": "Copié du menu Westboro en ligne. Pas la carte de Kanata. Taxes en sus. Les prix peuvent changer.",
+    "asOf": "Instantané du menu fratelli.ca, 23 août 2026.",
+    "dinner": "Dîner",
+    "lunch": "Déjeuner",
+    "dessert": "Dessert",
+    "specials": "Specials du soir"
+  },
   "footer": {
-    "line": "Vin × pâtes × pizza. Une refonte de fratellikanata.ca — leur Squarespace reste jusqu’au basculement.",
-    "copy": "Aperçu de fratellikanata.ca. Le site en ligne reste jusqu’à nouvel ordre. Le français est une courtoisie — leur site est en anglais."
+    "line": "Deux salles. Westboro : fratelli.ca. Kanata : fratellikanata.ca. Leurs sites restent jusqu’au basculement.",
+    "copy": "Aperçu des deux salles Fratelli. Les sites en ligne restent. Le français est une courtoisie — leurs sites sont en anglais."
   }
 }

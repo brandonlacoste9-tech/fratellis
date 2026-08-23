@@ -1,39 +1,39 @@
-import { house, shop } from "@/content/house";
+import { house, shop, westboro } from "@/content/house";
 
 export function RestaurantJsonLd() {
   const data = {
     "@context": "https://schema.org",
-    "@type": "Restaurant",
-    name: house.name,
-    url: house.liveSite,
-    telephone: "+1-613-592-0225",
-    servesCuisine: "Italian",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "499 Terry Fox Drive",
-      addressLocality: "Kanata",
-      addressRegion: "ON",
-      postalCode: shop.postal,
-      addressCountry: "CA",
-    },
-    openingHoursSpecification: [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday"],
-        opens: "11:30",
-        closes: "21:00",
+        "@type": "Restaurant",
+        name: "Fratelli Kanata",
+        url: house.liveSite,
+        telephone: "+1-613-592-0225",
+        servesCuisine: "Italian",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "499 Terry Fox Drive",
+          addressLocality: "Kanata",
+          addressRegion: "ON",
+          postalCode: shop.postal,
+          addressCountry: "CA",
+        },
       },
       {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Friday", "Saturday"],
-        opens: "11:30",
-        closes: "22:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Sunday",
-        opens: "17:00",
-        closes: "21:00",
+        "@type": "Restaurant",
+        name: "Fratelli Westboro",
+        url: westboro.liveSite,
+        telephone: "+1-613-722-6772",
+        email: westboro.email,
+        servesCuisine: "Italian",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "275 Richmond Rd",
+          addressLocality: "Ottawa",
+          addressRegion: "ON",
+          postalCode: westboro.postal,
+          addressCountry: "CA",
+        },
       },
     ],
   };

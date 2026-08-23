@@ -7,12 +7,9 @@ import { house } from "@/content/house";
 import { Link, usePathname } from "@/i18n/navigation";
 
 const navItems = [
-  { href: "/menu", key: "menu" },
-  { href: "/hours", key: "hours" },
-  { href: "/takeout", key: "takeout" },
-  { href: "/events", key: "events" },
+  { href: "/kanata", key: "kanata" },
+  { href: "/westboro", key: "westboro" },
   { href: "/about", key: "about" },
-  { href: "/contact", key: "contact" },
 ] as const;
 
 export function SiteHeader() {
@@ -80,7 +77,9 @@ export function SiteHeader() {
               key={item.href}
               href={item.href}
               className={`text-[0.72rem] font-semibold tracking-[0.14em] uppercase ${
-                pathname === item.href ? "text-gold" : "text-cream/75 hover:text-gold"
+                pathname === item.href || pathname.startsWith(`${item.href}/`)
+                  ? "text-gold"
+                  : "text-cream/75 hover:text-gold"
               }`}
             >
               {t(item.key)}
@@ -90,12 +89,6 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-4">
           <LocaleSwitch />
-          <a
-            href={house.phoneHref}
-            className="hidden text-[0.72rem] font-semibold tracking-[0.12em] text-gold uppercase sm:inline"
-          >
-            {house.phone}
-          </a>
         </div>
       </div>
 

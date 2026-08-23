@@ -1,7 +1,7 @@
 {
   "meta": {
-    "site": "Fratelli Kanata",
-    "description": "Italian trattoria at 499 Terry Fox Drive, Kanata. Vino, pasta, wood-fired pizza. Tables by phone: (613) 592-0225."
+    "site": "Fratelli",
+    "description": "Two Italian rooms: Westboro at 275 Richmond Road, Kanata at 499 Terry Fox Drive."
   },
   "nav": {
     "skip": "Skip to content",
@@ -10,13 +10,19 @@
     "takeout": "Takeout",
     "events": "Events",
     "about": "About",
+    "kanata": "Kanata",
+    "westboro": "Westboro",
     "contact": "Contact",
     "close": "Close",
-    "strip": "Kanata · 499 Terry Fox Drive · call to reserve"
+    "strip": "Two rooms · Westboro · Kanata"
   },
   "callbar": {
-    "line": "Reservations are not required but are recommended. Call (613) 592-0225 — we do not book tables on this preview.",
-    "short": "Tables by phone — we don’t book here."
+    "line": "Kanata: reservations are not required but are recommended. Call (613) 592-0225 — we do not book tables on this preview.",
+    "short": "Kanata tables by phone — not here.",
+    "westboro": "Westboro tables are on OpenTable or (613) 722-6772 — this preview does not take a table.",
+    "westboroShort": "Westboro: OpenTable — we don’t book here.",
+    "family": "Two rooms. Westboro books on OpenTable. Kanata tables by phone: (613) 592-0225.",
+    "familyShort": "Two rooms — Westboro OpenTable · Kanata phone."
   },
   "home": {
     "kicker": "Kanata · family-owned",
@@ -86,10 +92,11 @@
     "title": "About",
     "noun": "Fratelli (noun, Italian for ‘brothers’)",
     "glebe": "Established in 1996 in the Glebe, their vision was a neighbourhood restaurant with good Italian food, good wine, and friendly service in an unpretentious atmosphere. Robert and mother Louisa ran the kitchen; Richard and father Pasquale worked the dining room.",
-    "kanata": "They continue the tradition as fratelli at the Kanata location — family-owned and operated.",
+    "kanata": "They continue as fratelli. Kanata prints the family-owned room on Terry Fox Drive. Westboro prints “now in Westboro.”",
     "roberto": "They also point to Roberto Pizza in Little Italy. That is a different site. We link it; we do not rebuild it as this room.",
     "robertoCta": "Roberto Pizza",
-    "notWestboro": "This rebuild is fratellikanata.ca only — 499 Terry Fox Drive. Not 275 Richmond Road."
+    "notWestboro": "Kanata is 499 Terry Fox Drive. Westboro is 275 Richmond Road.",
+    "twoRooms": "fratelli.ca is Westboro (OpenTable, 613-722-6772). fratellikanata.ca is Kanata (phone tables, 613-592-0225). We do not mix the rooms."
   },
   "contact": {
     "kicker": "the room",
@@ -99,8 +106,45 @@
     "events": "Events and parties of 10+",
     "noForm": "There is no reservation form on their live site. There is none here."
   },
+  "family": {
+    "kicker": "Ottawa · two rooms",
+    "title": "Fratelli.",
+    "lead": "Brothers. Two kitchens. Kanata on Terry Fox Drive. Westboro on Richmond Road. Each room keeps its own phone, hours, and booking door.",
+    "roomsTitle": "The rooms",
+    "roomsLead": "We do not mix the two live sites. Kanata has no OpenTable. Westboro books on OpenTable.",
+    "kanataReserve": "Tables by phone. Not required, recommended.",
+    "westboroReserve": "Tables on OpenTable, or call the Westboro line."
+  },
+  "westboro": {
+    "title": "Westboro.",
+    "lead": "fratelli.ca. Enoteca and wood-fired pizza at 275 Richmond Road. Since 1996, now in Westboro — as they write it.",
+    "heroAlt": "The Fratelli storefront on Richmond Road in Westboro.",
+    "reserve": "OpenTable",
+    "menu": "The menu",
+    "hoursTitle": "Hours",
+    "contactTitle": "Contact",
+    "contactLead": "Westboro prints (613) 722-6772 and juliana@fratelli.ca. That is not the Kanata line.",
+    "map": "Open in Google Maps",
+    "parties": "Private parties go through their live parties page. We do not take the booking here.",
+    "partiesCta": "Their parties page",
+    "specials": "Specials",
+    "specialsLead": "Copied from fratelli.ca. Specials change. Half-price wine Monday is on their drinks page.",
+    "eventsNote": "Their events page currently lists National Pasta Day (Saturday October 17th) and National Cappuccino Day (Sunday November 8th), as printed.",
+    "notKanata": "This is not 499 Terry Fox Drive. Kanata has its own site, phone, and takeout hours.",
+    "noForm": "This preview does not take a table. Westboro reservations stay on OpenTable."
+  },
+  "westboroMenu": {
+    "kicker": "Westboro · fratelli.ca",
+    "title": "Menu",
+    "lead": "Copied from the live Westboro food menu. Not the Kanata board. Tax extra. Prices may change.",
+    "asOf": "Snapshot of fratelli.ca food menu, 23 August 2026.",
+    "dinner": "Dinner",
+    "lunch": "Lunch",
+    "dessert": "Dessert",
+    "specials": "Dinner specials"
+  },
   "footer": {
-    "line": "Vino × pasta × pizza. A rebuild of fratellikanata.ca — their live Squarespace stays until they switch.",
-    "copy": "Preview of fratellikanata.ca. Live site stays until they say otherwise. French is a courtesy toggle — their site is English."
+    "line": "Two rooms. Westboro is fratelli.ca. Kanata is fratellikanata.ca. Their live sites stay until they switch.",
+    "copy": "Preview of the two Fratelli rooms. Live sites stay until they say otherwise. French is a courtesy toggle — their sites are English."
   }
 }
