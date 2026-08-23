@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "site": "Fratelli Kanata",
+    "description": "Trattoria italienne au 499 Terry Fox Drive, Kanata. Vin, pâtes, pizza au feu de bois. Tables au téléphone : 613-592-0225."
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "hours": "Heures",
+    "takeout": "À emporter",
+    "events": "Événements",
+    "about": "À propos",
+    "contact": "Contact",
+    "close": "Fermer",
+    "strip": "Kanata · 499 Terry Fox Drive · réservez au téléphone"
+  },
+  "callbar": {
+    "line": "Les réservations ne sont pas obligatoires, mais recommandées. Appelez le 613-592-0225 — on ne prend pas de table sur cet aperçu.",
+    "short": "Tables au téléphone — pas ici."
+  },
+  "home": {
+    "kicker": "Kanata · familial",
+    "title": "Vin, pâtes, pizza.",
+    "lead": "Une salle italienne de quartier sur Terry Fox Drive. Leur carte, leurs photos, leur téléphone.",
+    "ctaCall": "Appeler le 613-592-0225",
+    "ctaMenu": "La carte",
+    "heroAlt": "Le mur du four à pizza chez Fratelli Kanata.",
+    "hoursTitle": "Heures d’ouverture",
+    "hoursLead": "Telles qu’imprimées sur fratellikanata.ca. Les heures peuvent changer — appelez pour confirmer.",
+    "reserveTitle": "Une table",
+    "reserveLead": "Les réservations ne sont pas obligatoires, mais recommandées. 613-592-0225. Groupes de 10 et plus : events@fratelli-kanata.ca. Cet aperçu ne prend pas de table.",
+    "menuTitle": "Sur la carte",
+    "menuLead": "Antipasti, pâtes, pizza au feu de bois, viandes et poisson. On montre leur carte publiée. Les prix peuvent changer.",
+    "menuCta": "La carte complète",
+    "photosTitle": "La salle",
+    "photosLead": "Photos qu’ils publient sur le site en ligne.",
+    "eventsTitle": "Le loft",
+    "eventsLead": "À l’étage, jusqu’à 32 couverts. Écrivez à l’équipe événements — on ne prend pas la réservation ici.",
+    "eventsCta": "Événements",
+    "roomAlt": "La salle et le loft à l’étage chez Fratelli Kanata."
+  },
+  "menu": {
+    "kicker": "sur place",
+    "title": "Menu",
+    "lead": "Copié de la carte qu’ils publient sur fratellikanata.ca. Taxes en sus. Les prix peuvent changer. Signalez toute allergie au service — comme ils l’impriment.",
+    "asOf": "Instantané de leur carte en ligne, 23 août 2026.",
+    "boardAlt": "Carte dine-in de Fratelli Kanata.",
+    "boardCaption": "Leur carte publiée. Les listes ci-dessous en sont la transcription, pas un deuxième menu.",
+    "allergens": "Signalez toute allergie au service."
+  },
+  "hours": {
+    "kicker": "la carte",
+    "title": "Heures",
+    "lead": "Heures sur place telles qu’imprimées. L’à emporter a une autre plage — voir À emporter.",
+    "change": "Les heures peuvent changer, veuillez appeler.",
+    "book": "Les réservations ne sont pas obligatoires, mais recommandées. 613-592-0225.",
+    "parties": "Groupes de 10 et plus : events@fratelli-kanata.ca.",
+    "westboro": "fratelli.ca, c’est Fratelli Westboro au 275, chemin Richmond, avec OpenTable. Ce n’est pas cette salle.",
+    "takeoutCta": "Heures à emporter"
+  },
+  "takeout": {
+    "kicker": "téléphone seulement",
+    "title": "À emporter",
+    "lead": "Commandes au téléphone seulement, 613-592-0225. Si la ligne est occupée, rappelez. On n’invente pas de panier en ligne.",
+    "hoursTitle": "Heures à emporter",
+    "hoursLead": "Imprimées sur leur page takeout — pas les mêmes que sur place.",
+    "openHours": "Ils écrivent aussi que l’à emporter est offert pendant les heures d’ouverture, puis ils impriment cette plage.",
+    "beer": "Bière et vin aussi à emporter.",
+    "pickup": "Ramassage habituel 15–20 minutes pour la plupart des commandes; certaines prennent plus longtemps. Précommande jusqu’à une heure avant.",
+    "pay": "Ils impriment : comptant, Interac, cartes y compris American Express, et paiement au téléphone si vous le demandez en commandant.",
+    "deadLink": "Leur page takeout pointe encore vers kanata.fratelli.ca /menu2020. Ce chemin est en 404, et kanata.fratelli.ca redirige maintenant vers Fratelli Westboro. On ne vous y envoie pas pour cette cuisine.",
+    "covid": "Cette page takeout porte encore des notes de ramassage 2020. On garde la règle du téléphone; on ne traite pas le masque comme une politique actuelle."
+  },
+  "events": {
+    "kicker": "à l’étage",
+    "title": "Événements",
+    "lead": "Dîner d’affaires, shower, répétition ? Ils ont un loft à l’étage.",
+    "seats": "Le loft accueille jusqu’à 32 personnes pour des repas assis.",
+    "menus": "Ils offrent des menus fixes et des plats de groupe. On n’invente pas ces menus.",
+    "email": "Écrivez à events@fratelli-kanata.ca.",
+    "gratuity": "Groupes de 8 et plus : pourboire automatique de 20 %.",
+    "cake": "Les desserts de l’extérieur sont sujets à des frais d’assiette selon la taille du groupe. Ils n’impriment pas de montant — nous non plus."
+  },
+  "about": {
+    "kicker": "fratelli — frères",
+    "title": "À propos",
+    "noun": "Fratelli (nom, « frères » en italien)",
+    "glebe": "Fondé en 1996 dans le Glebe : un resto de quartier, bonne cuisine italienne, bon vin, service simple. Robert et Louisa en cuisine; Richard et Pasquale en salle.",
+    "kanata": "Ils continuent comme fratelli à Kanata — familial.",
+    "roberto": "Ils pointent aussi vers Roberto Pizza à Little Italy. Autre site. On le lie; on ne le reconstruit pas comme cette salle.",
+    "robertoCta": "Roberto Pizza",
+    "notWestboro": "Cette refonte, c’est fratellikanata.ca seulement — 499 Terry Fox Drive. Pas le 275, chemin Richmond."
+  },
+  "contact": {
+    "kicker": "la salle",
+    "title": "Contact",
+    "lead": "Appelez le resto. Le courriel est pour les événements et les groupes de 10 et plus — pas un formulaire de réservation.",
+    "map": "Ouvrir dans Google Maps",
+    "events": "Événements et groupes de 10+",
+    "noForm": "Pas de formulaire de réservation sur leur site. Pas ici non plus."
+  },
+  "footer": {
+    "line": "Vin × pâtes × pizza. Une refonte de fratellikanata.ca — leur Squarespace reste jusqu’au basculement.",
+    "copy": "Aperçu de fratellikanata.ca. Le site en ligne reste jusqu’à nouvel ordre. Le français est une courtoisie — leur site est en anglais."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "site": "Fratelli Kanata",
+    "description": "Italian trattoria at 499 Terry Fox Drive, Kanata. Vino, pasta, wood-fired pizza. Tables by phone: (613) 592-0225."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "hours": "Hours",
+    "takeout": "Takeout",
+    "events": "Events",
+    "about": "About",
+    "contact": "Contact",
+    "close": "Close",
+    "strip": "Kanata · 499 Terry Fox Drive · call to reserve"
+  },
+  "callbar": {
+    "line": "Reservations are not required but are recommended. Call (613) 592-0225 — we do not book tables on this preview.",
+    "short": "Tables by phone — we don’t book here."
+  },
+  "home": {
+    "kicker": "Kanata · family-owned",
+    "title": "Vino, pasta, pizza.",
+    "lead": "A neighbourhood Italian room on Terry Fox Drive. Their board, their photos, their phone.",
+    "ctaCall": "Call (613) 592-0225",
+    "ctaMenu": "The board",
+    "heroAlt": "The pizza oven wall at Fratelli Kanata.",
+    "hoursTitle": "Hours of operation",
+    "hoursLead": "As printed on fratellikanata.ca. Hours are subject to change — please call to inquire.",
+    "reserveTitle": "A table",
+    "reserveLead": "Reservations are not required but are recommended. Call (613) 592-0225. Parties of 10 or more: email events@fratelli-kanata.ca. This preview does not take a table.",
+    "menuTitle": "On the board",
+    "menuLead": "Antipasti, pasta, wood-fired pizza, meat and pesce. We show their published board. Prices may change.",
+    "menuCta": "Full board",
+    "photosTitle": "The room",
+    "photosLead": "Photographs they publish on the live site.",
+    "eventsTitle": "The loft",
+    "eventsLead": "Upstairs seats up to 32 for seated lunches and dinners. Email the event team — we do not take the booking here.",
+    "eventsCta": "Events",
+    "roomAlt": "The dining room and upstairs loft at Fratelli Kanata."
+  },
+  "menu": {
+    "kicker": "dine-in",
+    "title": "Menu",
+    "lead": "Copied from the dine-in board they publish on fratellikanata.ca. Tax extra. Prices may change. Please make your server aware of any allergies — as they print.",
+    "asOf": "Snapshot of their live board, 23 August 2026.",
+    "boardAlt": "Fratelli Kanata dine-in menu board.",
+    "boardCaption": "Their published board. The lists below are a transcription of that image, not a second menu.",
+    "allergens": "Please make your server aware of any allergies."
+  },
+  "hours": {
+    "kicker": "the board",
+    "title": "Hours",
+    "lead": "Dine-in hours as printed on their home page. Takeout uses a different window — see Takeout.",
+    "change": "Hours are subject to change, please call to inquire.",
+    "book": "Reservations are not required but are recommended. Call (613) 592-0225.",
+    "parties": "Parties of 10 or more: email events@fratelli-kanata.ca.",
+    "westboro": "fratelli.ca is Fratelli Westboro at 275 Richmond Road, with OpenTable. That is not this room.",
+    "takeoutCta": "Takeout hours"
+  },
+  "takeout": {
+    "kicker": "phone only",
+    "title": "Takeout",
+    "lead": "We only accept orders via phone, (613) 592-0225. If the line is busy, try again. We do not invent an online cart.",
+    "hoursTitle": "Takeout hours",
+    "hoursLead": "Printed on their takeout page — not the same as dine-in.",
+    "openHours": "They also write that takeout is available during open hours, then print this window.",
+    "beer": "Beer and wine are also available for takeout.",
+    "pickup": "Standard pickup is 15–20 minutes for most orders; some take longer. Orders can be pre-ordered up to an hour prior to pickup.",
+    "pay": "They print cash, Interact, credit cards including American Express, and payment over the phone if you ask when ordering.",
+    "deadLink": "Their takeout page still points at kanata.fratelli.ca /menu2020. That path 404s, and kanata.fratelli.ca now redirects to Fratelli Westboro. We do not send you there for this kitchen.",
+    "covid": "That takeout page still carries 2020 pickup-area notes. We keep the phone-order rule; we do not treat mask language as current house policy."
+  },
+  "events": {
+    "kicker": "upstairs",
+    "title": "Events",
+    "lead": "Looking to host a business lunch or dinner, a wedding shower or rehearsal dinner? They have an exclusive hosting space in the upstairs loft.",
+    "seats": "The loft seats up to 32 people for seated lunches and dinners.",
+    "menus": "They offer a variety of set menus and specialty menu items for groups. We do not invent those menus.",
+    "email": "Email the event team at events@fratelli-kanata.ca.",
+    "gratuity": "Groups of 8 or more are subject to an automatic gratuity of 20%.",
+    "cake": "Outside desserts will be subject to a plating fee reflective of the group’s size. They do not print a dollar amount — neither do we."
+  },
+  "about": {
+    "kicker": "fratelli — brothers",
+    "title": "About",
+    "noun": "Fratelli (noun, Italian for ‘brothers’)",
+    "glebe": "Established in 1996 in the Glebe, their vision was a neighbourhood restaurant with good Italian food, good wine, and friendly service in an unpretentious atmosphere. Robert and mother Louisa ran the kitchen; Richard and father Pasquale worked the dining room.",
+    "kanata": "They continue the tradition as fratelli at the Kanata location — family-owned and operated.",
+    "roberto": "They also point to Roberto Pizza in Little Italy. That is a different site. We link it; we do not rebuild it as this room.",
+    "robertoCta": "Roberto Pizza",
+    "notWestboro": "This rebuild is fratellikanata.ca only — 499 Terry Fox Drive. Not 275 Richmond Road."
+  },
+  "contact": {
+    "kicker": "the room",
+    "title": "Contact",
+    "lead": "Call the restaurant. Email is for events and parties of 10 or more — not a booking form.",
+    "map": "Open in Google Maps",
+    "events": "Events and parties of 10+",
+    "noForm": "There is no reservation form on their live site. There is none here."
+  },
+  "footer": {
+    "line": "Vino × pasta × pizza. A rebuild of fratellikanata.ca — their live Squarespace stays until they switch.",
+    "copy": "Preview of fratellikanata.ca. Live site stays until they say otherwise. French is a courtesy toggle — their site is English."
+  }
+}
