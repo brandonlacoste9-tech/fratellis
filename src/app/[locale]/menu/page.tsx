@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { WallpaperFrame } from "@/components/layout/WallpaperFrame";
 import { house } from "@/content/house";
 import { menuSections } from "@/content/menu";
 
@@ -17,7 +18,7 @@ export default async function MenuPage({ params }: Props) {
   const t = await getTranslations("menu");
 
   return (
-    <div className="mx-auto max-w-[900px] px-6 py-16 md:py-20">
+    <WallpaperFrame innerClassName="mx-auto max-w-[900px] px-6 py-16 md:px-10 md:py-20">
       <p className="text-[0.72rem] font-semibold tracking-[0.22em] text-muted uppercase">
         {t("kicker")}
       </p>
@@ -25,7 +26,7 @@ export default async function MenuPage({ params }: Props) {
       <p className="mt-6 max-w-2xl text-lg text-muted">{t("lead")}</p>
       <p className="mt-2 text-sm text-muted">{t("asOf")}</p>
 
-      <figure className="mt-10 border border-line bg-white p-3">
+      <figure className="mt-10 border border-[var(--lettering)] bg-white p-3">
         <img src={house.menuBoard} alt={t("boardAlt")} className="w-full" />
         <figcaption className="mt-3 text-xs text-muted">{t("boardCaption")}</figcaption>
       </figure>
@@ -59,6 +60,6 @@ export default async function MenuPage({ params }: Props) {
         ))}
       </div>
       <p className="mt-10 text-sm text-muted">{t("allergens")}</p>
-    </div>
+    </WallpaperFrame>
   );
 }

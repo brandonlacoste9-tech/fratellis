@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { WallpaperFrame } from "@/components/layout/WallpaperFrame";
 import { dineHours, gallery, house } from "@/content/house";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
@@ -66,18 +67,18 @@ export default async function HomePage({ params }: Props) {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1180px] px-6 py-16">
+      <WallpaperFrame innerClassName="mx-auto max-w-[1180px] px-6 py-16 md:px-10">
         <h2 className="font-heading text-4xl md:text-5xl">{t("menuTitle")}</h2>
         <p className="mt-4 max-w-2xl text-lg text-muted">{t("menuLead")}</p>
         <img
           src={house.menuBoard}
           alt=""
-          className="mt-8 w-full max-w-xl border border-line bg-white"
+          className="mt-8 w-full max-w-xl border border-[var(--lettering)] bg-white"
         />
         <Link href="/menu" className="mt-6 inline-block text-sm font-semibold tracking-[0.14em] text-wine uppercase">
           {t("menuCta")} →
         </Link>
-      </section>
+      </WallpaperFrame>
 
       <section className="bg-night py-16 text-cream">
         <div className="mx-auto max-w-[1180px] px-6">
