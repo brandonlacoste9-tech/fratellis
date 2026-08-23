@@ -1,7 +1,7 @@
 {
   "meta": {
     "site": "Fratelli",
-    "description": "Two Italian rooms: Westboro at 275 Richmond Road, Kanata at 499 Terry Fox Drive."
+    "description": "Two Italian locations: Westboro at 275 Richmond Road, Kanata at 499 Terry Fox Drive."
   },
   "nav": {
     "skip": "Skip to content",
@@ -14,20 +14,20 @@
     "westboro": "Westboro",
     "contact": "Contact",
     "close": "Close",
-    "strip": "Two rooms · Westboro · Kanata"
+    "strip": "Two locations · Westboro · Kanata"
   },
   "callbar": {
     "line": "Kanata: reservations are not required but are recommended. Call (613) 592-0225 — we do not book tables on this preview.",
     "short": "Kanata tables by phone — not here.",
     "westboro": "Westboro tables are on OpenTable or (613) 722-6772 — this preview does not take a table.",
     "westboroShort": "Westboro: OpenTable — we don’t book here.",
-    "family": "Two rooms. Westboro books on OpenTable. Kanata tables by phone: (613) 592-0225.",
-    "familyShort": "Two rooms — Westboro OpenTable · Kanata phone."
+    "family": "Two locations. Westboro books on OpenTable. Kanata tables by phone: (613) 592-0225.",
+    "familyShort": "Two locations — Westboro OpenTable · Kanata phone."
   },
   "home": {
     "kicker": "Kanata · family-owned",
     "title": "Vino, pasta, pizza.",
-    "lead": "A neighbourhood Italian room on Terry Fox Drive. Their board, their photos, their phone.",
+    "lead": "A neighbourhood Italian location on Terry Fox Drive. Their board, their photos, their phone.",
     "ctaCall": "Call (613) 592-0225",
     "ctaMenu": "The board",
     "heroAlt": "The pizza oven wall at Fratelli Kanata.",
@@ -61,7 +61,7 @@
     "change": "Hours are subject to change, please call to inquire.",
     "book": "Reservations are not required but are recommended. Call (613) 592-0225.",
     "parties": "Parties of 10 or more: email events@fratelli-kanata.ca.",
-    "westboro": "fratelli.ca is Fratelli Westboro at 275 Richmond Road, with OpenTable. That is not this room.",
+    "westboro": "fratelli.ca is Fratelli Westboro at 275 Richmond Road, with OpenTable. That is not this location.",
     "takeoutCta": "Takeout hours"
   },
   "takeout": {
@@ -92,14 +92,14 @@
     "title": "About",
     "noun": "Fratelli (noun, Italian for ‘brothers’)",
     "glebe": "Established in 1996 in the Glebe, their vision was a neighbourhood restaurant with good Italian food, good wine, and friendly service in an unpretentious atmosphere. Robert and mother Louisa ran the kitchen; Richard and father Pasquale worked the dining room.",
-    "kanata": "They continue as fratelli. Kanata prints the family-owned room on Terry Fox Drive. Westboro prints “now in Westboro.”",
-    "roberto": "They also point to Roberto Pizza in Little Italy. That is a different site. We link it; we do not rebuild it as this room.",
+    "kanata": "They continue as fratelli. Kanata prints the family-owned location on Terry Fox Drive. Westboro prints “now in Westboro.”",
+    "roberto": "They also point to Roberto Pizza in Little Italy. That is a different site. We link it; we do not rebuild it as this location.",
     "robertoCta": "Roberto Pizza",
     "notWestboro": "Kanata is 499 Terry Fox Drive. Westboro is 275 Richmond Road.",
-    "twoRooms": "fratelli.ca is Westboro (OpenTable, 613-722-6772). fratellikanata.ca is Kanata (phone tables, 613-592-0225). We do not mix the rooms."
+    "twoLocations": "fratelli.ca is Westboro (OpenTable, 613-722-6772). fratellikanata.ca is Kanata (phone tables, 613-592-0225). We do not mix the locations."
   },
   "contact": {
-    "kicker": "the room",
+    "kicker": "the location",
     "title": "Contact",
     "lead": "Call the restaurant. Email is for events and parties of 10 or more — not a booking form.",
     "map": "Open in Google Maps",
@@ -107,11 +107,11 @@
     "noForm": "There is no reservation form on their live site. There is none here."
   },
   "family": {
-    "kicker": "Ottawa · two rooms",
+    "kicker": "Ottawa · two locations",
     "title": "Fratelli.",
-    "lead": "Brothers. Two kitchens. Kanata on Terry Fox Drive. Westboro on Richmond Road. Each room keeps its own phone, hours, and booking door.",
-    "roomsTitle": "The rooms",
-    "roomsLead": "We do not mix the two live sites. Kanata has no OpenTable. Westboro books on OpenTable.",
+    "lead": "Brothers. Two kitchens. Kanata on Terry Fox Drive. Westboro on Richmond Road. Each location keeps its own phone, hours, and booking door.",
+    "locationsTitle": "The locations",
+    "locationsLead": "We do not mix the two live sites. Kanata has no OpenTable. Westboro books on OpenTable.",
     "kanataReserve": "Tables by phone. Not required, recommended.",
     "westboroReserve": "Tables on OpenTable, or call the Westboro line."
   },
@@ -144,7 +144,7 @@
     "specials": "Dinner specials"
   },
   "footer": {
-    "line": "Two rooms. Westboro is fratelli.ca. Kanata is fratellikanata.ca. Their live sites stay until they switch.",
-    "copy": "Preview of the two Fratelli rooms. Live sites stay until they say otherwise. French is a courtesy toggle — their sites are English."
+    "line": "Two locations. Westboro is fratelli.ca. Kanata is fratellikanata.ca. Their live sites stay until they switch.",
+    "copy": "Preview of the two Fratelli locations. Live sites stay until they say otherwise. French is a courtesy toggle — their sites are English."
   }
 }

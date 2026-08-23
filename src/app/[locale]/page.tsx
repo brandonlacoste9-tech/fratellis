@@ -11,7 +11,7 @@ export default async function HomePage({ params }: Props) {
   const t = await getTranslations("family");
   const lang = locale as Locale;
 
-  const rooms = [
+  const locations = [
     {
       id: "kanata",
       href: "/kanata",
@@ -49,28 +49,28 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       <section className="mx-auto max-w-[1180px] px-6 py-16">
-        <h2 className="font-heading text-4xl md:text-5xl">{t("roomsTitle")}</h2>
-        <p className="mt-3 max-w-2xl text-muted">{t("roomsLead")}</p>
+        <h2 className="font-heading text-4xl md:text-5xl">{t("locationsTitle")}</h2>
+        <p className="mt-3 max-w-2xl text-muted">{t("locationsLead")}</p>
         <ul className="mt-10 grid gap-6 md:grid-cols-2">
-          {rooms.map((room) => (
-            <li key={room.id} className="flex flex-col overflow-hidden border border-line bg-cream">
-              <Link href={room.href} className="relative block min-h-[16rem] overflow-hidden">
-                <img src={room.photo} alt="" className="absolute inset-0 h-full w-full object-cover" />
+          {locations.map((location) => (
+            <li key={location.id} className="flex flex-col overflow-hidden border border-line bg-cream">
+              <Link href={location.href} className="relative block min-h-[16rem] overflow-hidden">
+                <img src={location.photo} alt="" className="absolute inset-0 h-full w-full object-cover" />
               </Link>
               <div className="flex flex-1 flex-col p-6">
                 <p className="text-[0.72rem] font-semibold tracking-[0.16em] text-muted uppercase">
-                  {room.tag}
+                  {location.tag}
                 </p>
-                <h3 className="mt-1 font-heading text-3xl">{room.name[lang]}</h3>
-                <p className="mt-3 text-sm text-muted">{room.reserve}</p>
-                <a href={room.phoneHref} className="mt-2 font-semibold text-wine">
-                  {room.phone}
+                <h3 className="mt-1 font-heading text-3xl">{location.name[lang]}</h3>
+                <p className="mt-3 text-sm text-muted">{location.reserve}</p>
+                <a href={location.phoneHref} className="mt-2 font-semibold text-wine">
+                  {location.phone}
                 </a>
                 <Link
-                  href={room.href}
+                  href={location.href}
                   className="mt-6 text-sm font-semibold tracking-[0.14em] text-wine uppercase"
                 >
-                  {room.name[lang]} →
+                  {location.name[lang]} →
                 </Link>
               </div>
             </li>

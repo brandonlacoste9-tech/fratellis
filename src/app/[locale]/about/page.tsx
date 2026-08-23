@@ -38,7 +38,7 @@ export default async function AboutPage({ params }: Props) {
       >
         {t("robertoCta")} →
       </a>
-      <p className="mt-8 text-sm text-muted">{t("twoRooms")}</p>
+      <p className="mt-8 text-sm text-muted">{t("twoLocations")}</p>
     </div>
   );
 }
