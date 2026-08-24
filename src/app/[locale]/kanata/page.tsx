@@ -75,6 +75,21 @@ export default async function HomePage({ params }: Props) {
         </Link>
       </WallpaperFrame>
 
+      <section className="border-b border-line bg-night py-16 text-cream">
+        <div className="mx-auto grid max-w-[1180px] items-center gap-10 px-6 lg:grid-cols-2">
+          <HeroFilm
+            src={house.kitchenFilm}
+            poster={house.kitchenPoster}
+            alt={t("kitchenAlt")}
+            className="relative min-h-[20rem] overflow-hidden md:min-h-[24rem]"
+          />
+          <div>
+            <h2 className="font-heading text-4xl md:text-5xl">{t("kitchenTitle")}</h2>
+            <p className="mt-4 text-lg text-cream/75">{t("kitchenLead")}</p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-night py-16 text-cream">
         <div className="mx-auto max-w-[1180px] px-6">
           <h2 className="font-heading text-4xl md:text-5xl">{t("photosTitle")}</h2>
@@ -88,9 +103,22 @@ export default async function HomePage({ params }: Props) {
                 className="relative aspect-[4/3] overflow-hidden"
               />
             </li>
+            <li className="overflow-hidden sm:col-span-2">
+              <HeroFilm
+                src={house.pizzaFilm}
+                poster={house.pizzaPoster}
+                alt={t("pizzaAlt")}
+                className="relative aspect-[4/3] overflow-hidden"
+              />
+            </li>
             {gallery
-              .filter((shot) => shot.src !== "/gallery/2.jpg")
-              .slice(0, 6)
+              .filter(
+                (shot) =>
+                  shot.src !== "/gallery/2.jpg" &&
+                  shot.src !== "/gallery/4.jpg" &&
+                  shot.src !== "/gallery/6.jpg",
+              )
+              .slice(0, 4)
               .map((shot) => (
                 <li key={shot.src} className="overflow-hidden">
                   <img
@@ -105,7 +133,12 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       <section className="mx-auto grid max-w-[1180px] items-center gap-10 px-6 py-16 lg:grid-cols-2">
-        <img src={house.room} alt={t("roomAlt")} className="w-full border border-line object-cover" />
+        <HeroFilm
+          src={house.diningFilm}
+          poster={house.diningPoster}
+          alt={t("roomAlt")}
+          className="relative min-h-[20rem] overflow-hidden border border-line md:min-h-[24rem]"
+        />
         <div>
           <h2 className="font-heading text-4xl md:text-5xl">{t("eventsTitle")}</h2>
           <p className="mt-4 text-lg text-muted">{t("eventsLead")}</p>
