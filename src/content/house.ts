@@ -75,11 +75,11 @@ export const gallery = [
   { src: "/gallery/1.jpg", alt: { en: "Wine bottles in a crate in the dining room.", fr: "Bouteilles de vin dans une caisse, dans la salle." } },
   { src: "/gallery/4.jpg", alt: { en: "Wood-fired pizza with arugula and cured ham.", fr: "Pizza au feu de bois, roquette et jambon." } },
   { src: "/gallery/2.jpg", alt: { en: "Pasta with ham and mushrooms they photograph.", fr: "Pâtes au jambon et aux champignons, photo qu’ils publient." } },
-  { src: "/gallery/5.jpg", alt: { en: "A photograph they publish of a plate.", fr: "Une photo d’assiette qu’ils publient." } },
+  { src: "/gallery/5.jpg", alt: { en: "Chocolate dessert with berry coulis.", fr: "Dessert au chocolat, coulis de fruits." } },
   { src: "/gallery/6.jpg", alt: { en: "A set table looking toward the kitchen and PIZZA wall.", fr: "Une table dressée, vue vers la cuisine et le mur PIZZA." } },
-  { src: "/gallery/7.jpg", alt: { en: "A photograph they publish of a plate.", fr: "Une photo d’assiette qu’ils publient." } },
-  { src: "/gallery/8.jpg", alt: { en: "A photograph they publish of the room.", fr: "Une photo de la salle qu’ils publient." } },
-  { src: "/gallery/10.jpg", alt: { en: "A photograph they publish of a plate.", fr: "Une photo d’assiette qu’ils publient." } },
+  { src: "/gallery/7.jpg", alt: { en: "Seafood stew with grilled bread.", fr: "Ragoût de fruits de mer, pain grillé." } },
+  { src: "/gallery/8.jpg", alt: { en: "Salmon with arugula salad.", fr: "Saumon et salade de roquette." } },
+  { src: "/gallery/10.jpg", alt: { en: "A plate from the kitchen.", fr: "Une assiette de la cuisine." } },
 ] as const;
 
 export const westboro = {
@@ -124,12 +124,12 @@ export const westboro = {
     },
   ],
   hoursNote: {
-    en: "As printed on fratelli.ca. Thursday is grouped with Friday and Saturday until 10 pm — not the Kanata Thursday window.",
-    fr: "Telles qu’imprimées sur fratelli.ca. Le jeudi est groupé avec vendredi et samedi jusqu’à 22 h — pas la fenêtre de Kanata.",
+    en: "Thursday is grouped with Friday and Saturday until 10 pm.",
+    fr: "Le jeudi est groupé avec vendredi et samedi jusqu’à 22 h.",
   },
   wineMonday: {
-    en: "Monday half-price wine, 5:00 pm – 9:00 pm — as printed on their drinks page and specials.",
-    fr: "Lundi : vins à moitié prix, 17 h – 21 h — tel qu’imprimé sur leur page vins et specials.",
+    en: "Monday half-price wine, 5:00 pm – 9:00 pm.",
+    fr: "Lundi : vins à moitié prix, 17 h – 21 h.",
   },
 } as const;
 

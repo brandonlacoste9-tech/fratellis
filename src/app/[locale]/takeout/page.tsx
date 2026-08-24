@@ -39,8 +39,6 @@ export default async function TakeoutPage({ params }: Props) {
       <p className="mt-6">{t("beer")}</p>
       <p className="mt-3">{t("pickup")}</p>
       <p className="mt-3">{t("pay")}</p>
-      <p className="mt-8 text-sm text-muted">{t("deadLink")}</p>
-      <p className="mt-3 text-sm text-muted">{t("covid")}</p>
       <a href={house.phoneHref} className="btn btn-wine mt-10">
         {house.phone}
       </a>
